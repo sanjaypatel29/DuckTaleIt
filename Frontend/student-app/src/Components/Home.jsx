@@ -35,7 +35,7 @@ export default function Home(props) {
     const [data, setdata] = useState([]);
     const [temp, setTemp] = useState([]);
     const [search, setSearch] = useState("")
-    const [params, setParams] = useState({ stuClass: '', search: '', subName: '', page: 1, perPage: 1 });
+    const [params, setParams] = useState({ stuClass: '', search: '', subName: '', page: 1, perPage: 5 });
     const classes = useStyles();
     const history = useHistory()
     const dispatch = useDispatch()
